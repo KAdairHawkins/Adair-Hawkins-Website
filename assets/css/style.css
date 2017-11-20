@@ -1,0 +1,18 @@
+#homeHeader {
+  background-size: cover;
+  background-color: black;
+  background: url("./images/background01.jpeg");
+}
+
+@media (max-width:767px){
+  .nav.m-x-auto{
+    clear:both;
+    margin: 0 !important;
+  }
+  .nav.navbar-nav.pull-md-right li{
+    float:left;
+  }
+   .nav.navbar-nav.pull-md-right li + li{
+      margin-left: 1rem;
+   }
+}
