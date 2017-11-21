@@ -1,8 +1,39 @@
-#homeHeader {
-  background-size: cover;
-  background-color: black;
-  background: url("./images/background01.jpeg");
+body {
+  background-image: url(../images/background06.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover
 }
+
+#header {
+  color:white;
+  line-height: 2.5;
+  font-size: 1.3rem;
+  text-shadow: 5px 5px 1px #000000;
+}
+
+p {
+  color:white;
+}
+
+li:hover {
+  color: #FEFE33;
+}
+
+#brand {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.nav-link.disabled {
+  color:white;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 24px 20px -10px black;
+	   -moz-box-shadow: 0 24px 20px -10px black;
+	        box-shadow: 0 24px 20px -10px black;
+}
+
 
 @media (max-width:767px){
   .nav.m-x-auto{
