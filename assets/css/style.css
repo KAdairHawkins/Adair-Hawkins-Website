@@ -34,6 +34,19 @@ li:hover {
 	        box-shadow: 0 24px 20px -10px black;
 }
 
+#portfolio {
+  background-image: url(../images/background.jpeg);
+  background-repeat:no-repeat;
+  background-size:cover
+}
+
+#portfolioTitle {
+  font-size: 3rem;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-bottom: 40;
+}
 
 @media (max-width:767px){
   .nav.m-x-auto{
