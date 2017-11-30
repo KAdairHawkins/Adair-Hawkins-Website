@@ -7,7 +7,7 @@ var path = require('path');
 
 //Web page entry
 router.get('/', function(req,res){
-    res.sendFile(path.join(__dirname, "..", 'home.html'));
+    res.sendFile(path.join(__dirname, + "/index.html")); //not handlebars
 });
 
 //Serves the home page
