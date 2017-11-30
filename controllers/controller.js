@@ -7,7 +7,7 @@ var path = require('path');
 
 //Web page entry
 router.get('/', function(req,res){
-    res.sendFile('../home.html');
+    res.sendFile(path.join(__dirname + 'home.html'));
 });
 
 //Serves the home page
